@@ -1,10 +1,10 @@
 <?php
 
-namespace PluginNamespace\Providers;
+namespace LypheBlocks\Providers;
 
-class PluginNameServiceProvider implements Provider
+class LypheBlocksServiceProvider implements Provider
 {
-    protected function providers()
+    protected function providers(): array
     {
         return [
             ApiServiceProvider::class,
@@ -13,15 +13,12 @@ class PluginNameServiceProvider implements Provider
         ];
     }
 
-    public function register()
+    public function register(): void
     {
         foreach ($this->providers() as $service) {
             (new $service)->register();
         }
     }
 
-    public function boot()
-    {
-        //
-    }
+    public function boot(): void {}
 }

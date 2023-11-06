@@ -1,12 +1,12 @@
 <?php
 
-namespace PluginNamespace\Providers;
+namespace LypheBlocks\Providers;
 
-use PluginNamespace\Commands\PluginNameCommand;
+use LypheBlocks\Commands\PluginNameCommand;
 
 class CommandServiceProvider implements Provider
 {
-    public function register()
+    public function register(): void
     {
         if (! defined('WP_CLI') || ! WP_CLI) {
             return;

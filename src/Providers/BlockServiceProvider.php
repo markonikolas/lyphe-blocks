@@ -1,10 +1,10 @@
 <?php
 
-namespace PluginNamespace\Providers;
+namespace LypheBlocks\Providers;
 
 class BlockServiceProvider implements Provider
 {
-    public function register()
+    public function register(): void
     {
         $entrypoints_manifest = realpath(__DIR__.'/../../dist/entrypoints.json');
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace PluginNamespace\Providers;
+namespace LypheBlocks\Providers;
 
 interface Provider
 {

@@ -1,18 +1,20 @@
 {
-  "name": "roots/clover",
+  "name": "markonikolas/lyphe-blocks",
   "type": "wordpress-plugin",
   "license": "MIT",
-  "description": "WordPress starter plugin",
-  "homepage": "https://roots.io/",
+  "description": "Lyphe blocks",
+  "homepage": "https://lyphe.com",
   "authors": [
     {
-      "name": "Roots",
-      "email": "team@roots.io",
-      "homepage": "https://github.com/roots"
+      "name": "Marko Nikolaš",
+      "email": "n1-dev+github@simplelogin.co",
+      "homepage": "https://github.com/markonikolas"
     }
   ],
   "keywords": [
-    "wordpress"
+    "wordpress",
+    "blocks",
+    "gutenberg"
   ],
   "support": {
     "issues": "https://github.com/roots/clover/issues",
@@ -20,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "PluginNamespace\\": "src/"
+      "LypheBlocks\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -28,7 +30,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "PluginNamespace\\Tests\\": "tests/"
+      "LypheBlocks\\\\Tests\\": "tests/"
     }
   },
   "require": {

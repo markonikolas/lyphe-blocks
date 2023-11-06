@@ -1,20 +1,20 @@
 {
-  "name": "@roots/clover",
+  "name": "lyphe-blocks",
   "version": "0.0.1",
   "license": "MIT",
   "private": true,
-  "description": "Clover",
-  "homepage": "https://roots.io/",
+  "description": "Gutenberg blocks for Lyphe.",
+  "homepage": "https://lyphe.com",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
+      "url": "https://opensource.org/licenses/MIT"
     }
   ],
   "authors": [
     {
-      "name": "Roots",
-      "email": "team@roots.io"
+      "name": "Marko Nikolaš",
+      "email": "n1-dev+github@simplelogin.co"
     }
   ],
   "scripts": {

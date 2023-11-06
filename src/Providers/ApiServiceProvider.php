@@ -1,10 +1,10 @@
 <?php
 
-namespace PluginNamespace\Providers;
+namespace LypheBlocks\Providers;
 
 class ApiServiceProvider implements Provider
 {
-    public function register()
+    public function register(): void
     {
         add_action('rest_api_init', function () {
             register_rest_route('plugin-name/v1', '/howdy', [
